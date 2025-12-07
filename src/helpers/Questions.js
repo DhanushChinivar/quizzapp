@@ -1,0 +1,68 @@
+const Questions = [
+    {
+        prompt: "What is my name?",
+        optionA: "John",
+        optionB: "Jake",
+        optionC: "Josh",
+        optionD: "Pedro",
+        answer: "optionD",
+    },
+    {
+        prompt: "Which of this is not a programming language?",
+        optionA: "Python",
+        optionB: "JavaScript",
+        optionC: "MC-03",
+        optionD: "Java",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which company developed the React library?",
+        optionA: "Google",
+        optionB: "Facebook",
+        optionC: "Microsoft",
+        optionD: "Twitter",
+        answer: "optionB",
+    },
+    {
+        prompt: "Which HTML tag is used for the largest heading?",
+        optionA: "<h1>",
+        optionB: "<h2>",
+        optionC: "<head>",
+        optionD: "<header>",
+        answer: "optionA",
+    },
+    {
+        prompt: "Which CSS property is used to change text color?",
+        optionA: "background-color",
+        optionB: "font-style",
+        optionC: "color",
+        optionD: "text-decoration",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which keyword declares a constant in JavaScript?",
+        optionA: "let",
+        optionB: "var",
+        optionC: "const",
+        optionD: "static",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which data structure uses key-value pairs?",
+        optionA: "Array",
+        optionB: "Set",
+        optionC: "Map/Object",
+        optionD: "Stack",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which method is used to add an item to the end of an array in JavaScript?",
+        optionA: "push()",
+        optionB: "pop()",
+        optionC: "shift()",
+        optionD: "unshift()",
+        answer: "optionA",
+    },
+];
+
+export default Questions;

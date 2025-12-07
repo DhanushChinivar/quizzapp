@@ -50,3 +50,69 @@
   color: #fff;
   cursor: pointer;
 }
+
+.Quizz {
+  width: 500px;
+  min-height: 400px;
+  border-radius: 10px;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.Quizz .options {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.Quizz .options button {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.Quizz .options button.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.Quizz .actions button {
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background: #fff;
+}
+
+.Quizz .actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.Quizz .actions button:hover:not(:disabled) {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Quizz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #62a8a8; /* same teal shade */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
